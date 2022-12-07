@@ -51,7 +51,7 @@ function SectionTop__init() {
 
     $selectedBgLi.addClass("active");
 
-    var timeline = gsap.timeline();
+     var timeline = gsap.timeline();
     
     setTimelineToEl(timeline, $selectedBgLiChild);
     setTimelineToEl(timeline, $selectedBgLi);
